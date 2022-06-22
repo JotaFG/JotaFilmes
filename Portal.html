@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<link rel="stylesheet" href="Portal.css">
+
+    <title></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+</head>
+
+
+  <body>
+    <!--Cabeçalho-->
+    <Header class=" header">
+      <div class="row">
+      <div class="col-lg-3 col-sm-0"> 
+<h1></h1>
+</div>
+<div class="col-lg-6 col-sm-12" > 
+ <ol>
+ <nav class="nav">
+  
+  <a class="nav-link" href="lançamentos.html" target="_blanck">Lançamentos</a>
+  <a class="nav-link" href="destaque.html" target="_blanck">Em destaques</a>
+  <a class="nav-link" href="comentarios.html" target="_blanck">Avaliações</a>
+  <a class="nav-link" href="mak.html" target="_blanck">Entrevistas & making of</a>
+  <a class="nav-link" href="novidades.html" target="_blanck">Novidades</a>
+
+</ol>
+</nav>
+</div>
+
+
+  <div class="col-lg-3 col-sm-0"> 
+<button onclick="carregaFilmes()">Carregar Filmes</button> 
+    <input type="text" id="pesquisa"> <button onclick="pesquisaFilmes()" >Buscar</button>
+</div>
+<h2>Lançamentos</h2>
+    <div class="container-fluid">
+        <div class="row" id="tela">
+            <div class="col-lg-4">
+                <img src="dtestranho2.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Doutor Estranho no Multiverso da Loucura</h5>
+                    <p class="card-text">O aguardado filme trata da jornada do Doutor Estranho rumo ao desconhecido. Além de receber ajuda de novos aliados místicos e outros já conhecidos do público, o personagem atravessa as realidades alternativas incompreensíveis e perigosas do Multiverso para enfrentar um novo e misterioso adversário.</p>
+                    
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <img src="light.jfif" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Lightyear</h5>
+                    <p class="card-text">Lightyear segue o lendário Space Ranger em uma aventura intergaláctica ao lado de um grupo de recrutas ambiciosos (vozes de Keke Palmer, Dale Soules e Taika Waititi), e seu companheiro robô Sox (voz de Peter Sohn).</p>
+                    
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <img src="assas.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Assassino sem rastro</h5>
+                    <p class="card-text">Alex Lewis (Liam Neeson) é um assassino experiente na mira do FBI. Quando Alex se recusa a concluir um trabalho para uma organização criminosa, entra em uma missão eletrizante para caçar e matar as pessoas que o contrataram antes que eles ou o agente do FBI Vincent Serra (Guy Pearce) o encontrem primeiro. .</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="apinto.js"></script>
+</body>
+
+
+
+
+
+
+
+<!-- Teste -->
+      <!-- </form> -->
+    </div>
+  </nav>
+  
+</div>
+</nav>
+</nav>
+</nav>
+
+    </Header>
+<!--Lançamentos-->
+<main class=" main">
+  
+    <div class="row">
+    
+    <div class="col-12">
+    
+  
+     
+
+   
+  
+<!--1-->
+
+<!--1-->
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="card mb-3" style="max-width: 100000px;">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <iframe class="oi"     width="780" height="500" src="https://www.youtube.com/embed/S55qvOKW5T0" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+            picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <h5 class="card-title">Morbius</h5>
+              <p class="card-text"><strong>Sinopse:</strong>  Baseado no personagem de mesmo nome da Marvel Comics, Michael Morbius (Jared Letto) sempre sofreu com uma condição rara em seu sangue que o faz andar de bengala e desde criança ser excluído por outros, mas sua vida solitária foi preenchida por livros. Após se formar na faculdade, Doutor Morbius é renomado na área de biomedicina e tenta achar uma cura para sua rara condição, afim de não apenas se ajudar, mas ajudar outras pessoas que também sofrem como ele. Experimentando com o DNA de morcegos, Morbius espera achar a cura e se usa como teste para o soro. Usando o DNA que isolou e uma mistura de eletrochoque, a cura foi um sucesso temporário, mas os efeitos colaterais acabaram transformando-o em um pseudo-vampiro e que agora precisa sobreviver como um. Apesar de ganhar capacidades iguais a de um morcego, Morbius precisa de sangue humano para sobreviver, os efeitos colaterais também o fez mudar fisicamente, ganhando presas e uma pele pálida. Além disso, a cada pessoa que ele morde, ela também vira um ser igual a ele.</p>
+          
+              <p class="card-text"><strong>Diretor:</strong> Daniel Espinosa <strong>Roteiro:</strong> Burk Sharpless, Roy Thomas <strong>Estreia:</strong> 2022
+                <p class="card-text"><strong>Elenco:</strong>	Jared Leto, Matt Smith (XI), Adria Arjona
+                  
+                  <p class="card-text"><strong>Avalição:</strong>	
+                   
+                    
+                    <div class=" go">
+                     <div class="rate">
+                        <input type="radio" id="star5" name="rate" value="5" />
+                        <label for="star5" title="text">5 stars</label>
+                        <input type="radio" id="star4" name="rate" value="4" />
+                        <label for="star4" title="text">4 stars</label>
+                        <input type="radio" id="star3" name="rate" value="3" />
+                        <label for="star3" title="text">3 stars</label>
+                        <input type="radio" id="star2" name="rate" value="2" />
+                        <label for="star2" title="text">2 stars</label>
+                        <input type="radio" id="star1" name="rate" value="1" />
+                        <label for="star1" title="text">1 star</label>
+                      </div>
+                    </div>
+    
+    
+    
+            </div>
+    
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="carousel-item">
+      <div class="card mb-3" style="max-width: 100000px;">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <iframe class="oi"     width="780" height="500" src="https://www.youtube.com/embed/jsgd_jVH834" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+            picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <h5 class="card-title">Uncharted - Fora do Mapa</h5>
+              <p class="card-text"><strong>Sinopse:</strong> 
+                Baseado em uma das séries de videogame mais vendidas e aclamadas pela crítica de todos os tempos, Uncharted: Fora do Mapa serve como uma prequela para os jogos, seguindo o jovem explorador Nathan "Nate" Drake (Tom Holland), descendente do grande explorador Francis Drake, antes de ser conhecido como um famoso explorador. Mas antes disso, Nate vivia uma vida pacata como bartender em uma cidade, mas acaba se envolvendo com um estranho que viria ser um dos seus mais confiáveis companheiros. Uncharted: Fora do Mapa mostra sua primeira aventura de caça ao tesouro com o sagaz parceiro Victor "Sully" Sullivan (Mark Wahlberg). Os dois partem em uma perigosa busca pelo "maior tesouro nunca encontrado", na cidade sul americana de El Dorado, mas a aventura acaba se estendendo por todo o mundo, enquanto rastreiam pistas que podem levar ao irmão há muito perdido de Nathan. Porém, mal sabiam eles que seriam perseguidos por um grupo de mercenários que também buscam pelo tesouro perdido.
+              <p class="card-text"><strong>Diretor:</strong> Ruben Fleischer <strong>Roteiro:</strong> Rafe Judkins, Art Marcum <strong>Estreia:</strong> 2022
+                <p class="card-text"><strong>Elenco:</strong>	Tom Holland, Mark Wahlberg, Sophia Ali
+                  <p class="card-text"><strong>Avalição:</strong>	
+                   
+                    
+                    <div class=" go">
+                     <div class="rate">
+                        <input type="radio" id="star5" name="rate" value="5" />
+                        <label for="star5" title="text">5 stars</label>
+                        <input type="radio" id="star4" name="rate" value="4" />
+                        <label for="star4" title="text">4 stars</label>
+                        <input type="radio" id="star3" name="rate" value="3" />
+                        <label for="star3" title="text">3 stars</label>
+                        <input type="radio" id="star2" name="rate" value="2" />
+                        <label for="star2" title="text">2 stars</label>
+                        <input type="radio" id="star1" name="rate" value="1" />
+                        <label for="star1" title="text">1 star</label>
+                      </div>
+                    </div>
+    
+    
+    
+            </div>
+    
+          </div>
+        </div>
+      </div>
+      
+
+    </div>
+    <div class="carousel-item">
+      <div class="card mb-3" style="max-width: 100000px;">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <iframe class="oi"     width="780" height="500" src="https://www.youtube.com/embed/A2SjVRziC7M" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+            picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <h5 class="card-title">Sonic 2 - O Filme</h5>
+              <p class="card-text"><strong>Sinopse:</strong> Sonic 2 - O Filme é uma sequência dos acontecimentos do primeiro live-action de Sonic - O Filme, baseado no videogame de sucesso. Após conseguir se estabelecer em Green Hills, Sonic está pronto para mais liberdade e quer provar que tem o necessário para ser um herói de verdade. Seu teste virá quando Tom e Maddie concordam em deixá-lo em casa enquanto saem de férias para ir ao casamento da irmã de Rachel, no Havaí. Mas para a infelicidade do ouriço, a data acaba coincidindo com o retorno do Dr. Robotnik, dessa vez com um novo parceiro, Knuckles, depois que o doutor do mal vai embora para o planeta cogumelo. O terrível Robotnik está à procura de uma esmeralda com o poder de destruir civilizações. Sonic se une a um novo companheiro, Tails, e juntos eles embarcam em uma jornada para encontrar a esmeralda antes que ela caia nas mãos erradas.</p>
+          
+              <p class="card-text"><strong>Diretor:</strong>  Jeff Fowler <strong>Roteiro:</strong> Patrick Casey, Patrick Casey <strong>Estreia:</strong> 2022
+                <p class="card-text"><strong>Elenco:</strong>Jim Carrey, James Marsden, Idris Elba
+                  
+                  <p class="card-text"><strong>Avalição:</strong>	
+                   
+                    
+                    <div class=" go">
+                     <div class="rate">
+                        <input type="radio" id="star5" name="rate" value="5" />
+                        <label for="star5" title="text">5 stars</label>
+                        <input type="radio" id="star4" name="rate" value="4" />
+                        <label for="star4" title="text">4 stars</label>
+                        <input type="radio" id="star3" name="rate" value="3" />
+                        <label for="star3" title="text">3 stars</label>
+                        <input type="radio" id="star2" name="rate" value="2" />
+                        <label for="star2" title="text">2 stars</label>
+                        <input type="radio" id="star1" name="rate" value="1" />
+                        <label for="star1" title="text">1 star</label>
+                      </div>
+                    </div>
+    
+    
+    
+            </div>
+    
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    </div>
+</main>
+<!--Em destaque-->
+<main class="destaque">
+<h5>Em destaque</h5>
+<img src="shehulk.jpg" class="peaky">
+<img src="obiwan.jpeg" class="boys">
+<img src="msmarvel.jpg" class="flash">
+<img src="strang.jpg" class="leao">  
+<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+  <a href="destaque.html"  target="_blanck"><button class="btn btn-primary me-md-2" type="button">Carregar mais filmes</button></a>
+ 
+</div>
+</main>
+
+<!--Ultimas avaliações-->
+<main class="avaliações">
+<h4>Ultimas avaliações</h4>
+<div class="card-group">
+  <div class="card">
+    <img src="user1.png" class="user01" alt="...">
+    <div class="card-body">
+      <h7 class="card-title"><strong>Pedro Luiz</strong></h7>
+      <p class="card-text">O filme Morbius é excelente, recomendo</p>
+      <p class="card-text"><small class="text-muted">Postado a 30 minutos</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="user1.png" class="user02" alt="...">
+    <div class="card-body">
+      <h7 class="card-title"><strong>Gabriel Xavier</strong> </h7>
+      <p class="card-text">Ms. Marvel está me surpreendendo, assistam pois vale a pena</p>
+      <p class="card-text"><small class="text-muted">Atualizado recentemente</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="user1.png" class="user03" alt="...">
+    <div class="card-body">
+      <h7 class="card-title"><strong>Lucas Oliveira</strong></h7>
+      <p class="card-text">Obi Wan está incrível!</p>
+      <p class="card-text"><small class="text-muted">Postado agora a pouco</small></p>
+    </div>
+  </div>
+</div>
+
+<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+  <a href="comentarios.html"  target="_blanck"><button class="btn btn-primary me-md-2" type="button">Mais comentários</button></a>
+ 
+</div>
+</main>
+
+<!--Entrevistas and making of-->
+<main class="entrevistas">
+<h8>Entrevistas & Making of</h8>
+<div class="row">
+  <div class="col-lg-4">
+
+<iframe width="536" height="315" class="um0" src="https://www.youtube.com/embed/I04vmcVhRUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="col-lg-4">
+  <iframe width="536" height="315" class="um0"  src="https://www.youtube.com/embed/0PfH-Zqxq9g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+  <div class="col-lg-4">
+  <iframe width="536" height="315" class="um0"  src="https://www.youtube.com/embed/UXgyzu8puwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+</div>
+
+
+  </p>
+</div>
+
+    <div class="row">
+      <div class="col-4"> 
+        <p><strong>Nome do Filme:
+        </strong> Sonic 2 <br>
+      <strong>Diretor:</strong> Jeff Fowler<br>
+      <strong>Roteiro:</strong> Patrick Casey, <br>
+      <strong>Estreia:</strong> 2022
+
+
+      </p>
+</div>
+<div class="col-4"> 
+ <ol>
+  <p><strong>Nome do Filme:
+  </strong> Vingadores Ultimato <br>
+  <strong>Diretor:</strong> Joe Russo, Anthony Russo <br>
+  <strong>Roteiro:</strong> Christopher Markus, Stephen McFeely <br>
+  <strong>Estreia:</strong> 2019 <br>
+
+  </p>
+</ol>
+</nav>
+</div>
+
+<div class="col-4">
+  
+  <p><strong>Nome do Filme:
+  </strong> O homem invisivel <br>
+  <strong>Diretor:</strong> Leigh Whannell <br>
+      <strong>Roteiro:</strong> H.G. Wells, Leigh Whannell <br>
+      <strong>Estreia:</strong> 2020
+
+
+
+
+</p>
+    </div>
+  
+  
+</div>
+</nav>
+</nav>
+</nav>
+
+</div>
+
+<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+  
+
+  <a href="mak.html"  target="_blanck"><button class="btn btn-primary me-md-2" type="button">Carregar mais </button></a>
+</div>
+</main>
+<!--Novidades-->
+<main class="Novidade">
+  <div class="row">
+ <div class="col-lg-8 col-sm-12">
+ <h6>Novidades & Notícias</h6>
+ <div class="card border-dark mb-3" style="max-width: 80rem;">
+ 
+  <div class="card-header">21 de junho, 2022</div>
+  <div class="row">
+  <div class="col-lg-5 col-sm-12">
+  <img src="jurass.jpg" class="polly">
+</div>
+<div class="col-lg-7 col-sm-0">
+  <div class="card-body text-dark">
+    <h9 class="card-title">Jurassic Park: Gravações de clássico dos anos 90 quase foram comprometidas por incidente com dinossauro</h9>
+    <p class="card-text">O diretor Steven Spielberg deu à equipe de efeitos especiais a missão de construir um Tiranossauro-Rex em "tamanho real", mas houve um problema.
+
+    </p>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="card border-danger mb-3" style="max-width: 80rem;">
+ 
+  <div class="card-header">21 de Junho, 2022</div>
+  <div class="row">
+  <div class="col-lg-5 col-sm-12">
+  <img src="lyear.jpg" class="polly">
+</div>
+<div class="col-lg-7 col-sm-0">
+  <div class="card-body text-danger">
+    <h9 class="card-title">Lightyear mudou a história de Buzz? Novo filme da Pixar contradiz momento decisivo de Toy Story 2</h9>
+    <p class="card-text"> Na nova animação, Chris Evans empresta sua voz para o herói do espaço que deu origem ao boneco de Andy</p>
+  </div>
+</div>
+</div>
+</div>
+
+
+<div class="card border-success mb-3" style="max-width: 80rem;">
+ 
+  <div class="card-header">16 de junho, 2022</div>
+  <div class="row">
+  <div class="col-lg-5 col-sm-12">
+  <img src="tbys.webp" class="polly">
+</div>
+<div class="col-lg-7 col-sm-0">
+  <div class="card-body text-success">
+    <h9 class="card-title">The Boys: 5 personagens importantes da série que não aparecem nos quadrinhos</h9>
+    <p class="card-text">Grande sucesso do Prime Video, a polêmica série da Amazon possui grandes diferenças em relação às HQs.</p>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<!--Sobre-->
+<div class="col-lg-4 col-sm-0">
+  <h6>Sobre</h6>
+<h10 class="agradecimento">Desenvolvido por João Ricardo 
+  
+</h10>
+
+
+<!--Editorial-->
+<h6>
+Editorial
+</h6>
+<h10><strong>Redação:</strong>João Ricardo<br>
+  <strong> Pesquisa:</strong>João Ricardo<br>
+  <strong> Gerente Geral:</strong>João Ricardo<br>
+</h10>
+
+
+</div>
+
+</div>
+<footer class="footer">
+  <div class="row">
+  <div class="col-lg-10 col-sm-6">
+<div class="fim">
+  <p7>Copyright 2022- Disciplina de Desenvolvimento de Interfaces Web-<strong>ICEI PUC Minas</strong></p7>
+  </div>
+</div>
+  <div class="col-lg-2 col-sm-6">
+  <h1></h1>
+</div>
+
+</div>
+</footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
